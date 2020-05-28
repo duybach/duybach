@@ -5,9 +5,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- slick CSS  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha256-UK1EiopXIL+KVhfbFa8xrmAWPeBjMVdvYMYkTAEv/HI=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha256-4hqlsNP9KM6+2eA8VUT0kk4RsMRTeS7QGHIM+MZ5sLY=" crossorigin="anonymous" />
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
+    <!-- Font Awesome  -->
+    <script src="https://kit.fontawesome.com/bb20fcefaf.js" crossorigin="anonymous"></script>
+
+    <!-- Roboto Font  -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
 
     <link href="/css/styles.css" rel="stylesheet">
@@ -28,29 +36,90 @@
         </div>
       </div>
 
+      <hr class="mt-5">
+
       <div class="row my-5">
         <div class="col-6">
-          <p class="text-left">
+          <p>
             I'm Duy, a Full Stack Developer from Berlin, Germany. I'm studying Computer Science at the <a href="https://www.tu-berlin.de/" target="_blank">Technische Universität Berlin</a> and currently work on my Final Thesis on Blockchain Layer-2 Scaling Solutions.
           </p>
         </div>
 
         <div class="col-6">
-          <p class="text-right">
-            I'm currently working at <a href="https://scondoo.de" target="_blank">scondoo</a> as a Full Stack Developer. Throughout my career, I've gained over 5 years of work experience and created & worked on multiple <a href="#">projects</a> with more to come.
+          <p>
+            I'm currently working at <a href="https://scondoo.de" target="_blank">scondoo</a> as a Full Stack Developer. Throughout my career, I've gained over 5 years of work experience and created & worked on multiple <button class="btn btn-link p-0 m-0 d-inline align-baseline" onclick="document.getElementById('portfolio').scrollIntoView({behavior: 'smooth'})">projects</button> with more to come.
           </p>
         </div>
       </div>
 
-      <div class="row my-5">
-        <div class="col-12">
-          DET (Energy Trading on Blockchain) | Food Manager | WhoWolf | Twittex <!-- https://github.com/patreu22/Twittex --> | Tobach 
-        </div>
-      </div>
+      <hr>
 
       <div class="row my-5">
         <div class="col-12">
-          E-Mail | GitHub | LeetCode | LinkedIn | XING
+          <div id="portfolio">
+            <div>
+              <div class="card m-3">
+                <img class="card-img-top" src="https://picsum.photos/400/350" alt="DET (Energy Trading on Blockchain) Image">
+                <div class="card-body">
+                  <h5 class="card-title">DET (Energy Trading on Blockchain)</h5>
+                  <p class="card-text">P2P energy trading application based on a Ethereum / Bitcoin Blockchain and Lightning Network</p>
+                  <a href="https://github.com/duybach/decentralized-energy-trading" class="btn btn-light"><i class="fab fa-github-square"></i> GitHub</a>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="card m-3">
+                <img class="card-img-top" src="https://picsum.photos/400/350" alt="Food Manager Image">
+                <div class="card-body">
+                  <h5 class="card-title">Food Manager</h5>
+                  <p class="card-text">Reduce your paper waste and get your food orders digitzed! Customer order interface and overview of the orders for the staff.</p>
+                  <a href="https://github.com/duybach/food-manager-gui" class="btn btn-light"><i class="fab fa-github-square"></i> GitHub</a>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="card m-3">
+                <img class="card-img-top" src="https://picsum.photos/400/350" alt="WhoWolf Image">
+                <div class="card-body">
+                  <h5 class="card-title">WhoWolf</h5>
+                  <p class="card-text">Play the game "Werwolf" online with your friends!</p>
+                  <a href="https://github.com/duybach/WhoWolf" class="btn btn-light"><i class="fab fa-github-square"></i> GitHub</a>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="card m-3">
+                <img class="card-img-top" src="https://picsum.photos/400/350" alt="Twittex Image">
+                <div class="card-body">
+                  <h5 class="card-title">Twittex</h5>
+                  <p class="card-text">Social Network Twitter project for university.</p>
+                  <a href="https://github.com/patreu22/Twittex" class="btn btn-light"><i class="fab fa-github-square"></i> GitHub</a>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div class="card m-3">
+                <img class="card-img-top" src="https://picsum.photos/400/350" alt="Tobach Image">
+                <div class="card-body">
+                  <h5 class="card-title">Tobach</h5>
+                  <p class="card-text">Small Android game which return a random texts to participants.</p>
+                  <a href="https://github.com/duybach/Tobach" class="btn btn-light"><i class="fab fa-github-square"></i> GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row my-5">
+        <div class="col-12">
+          <a href="mailto:duybachnguyen1995@gmail.com"><i class="fas fa-envelope-square"></i> E-Mail</a> | <a href="https://github.com/duybach" target="_blank"><i class="fab fa-github-square"></i> GitHub</a> | <a href="https://www.linkedin.com/in/duy-bach-nguyen-5986aa149/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
         </div>
       </div>
    </div>
@@ -60,5 +129,42 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $('#portfolio1').slick({
+          infinite: true,
+          slidesToShow: 2,
+          slidesToScroll: 1,
+        });
+
+        $('#portfolio').slick({
+          centerMode: true,
+          centerPadding: '60px',
+          slidesToShow: 2,
+          responsive: [
+            {
+              breakpoint: 768,
+              settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 3
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                arrows: false,
+                centerMode: true,
+                centerPadding: '40px',
+                slidesToShow: 1
+              }
+            }
+          ]
+        });
+      });
+    </script>
   </body>
 </html>
